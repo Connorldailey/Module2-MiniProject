@@ -1,0 +1,35 @@
+:root {
+    --purple: #BF40BF;
+    --white: #fff;
+}
+
+* {
+    background-color: 	#303030;
+}
+
+body {
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 200%;
+    color: var(--purple);
+    margin-bottom: 1%;
+}
+
+header {
+    padding: 2%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header p {
+    color: var(--white);
+}

@@ -5,6 +5,7 @@
 
 * {
     background-color: 	#303030;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -12,8 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: start;
-    align-items: center;
 }
 
 h1 {
@@ -32,4 +31,38 @@ header {
 
 header p {
     color: var(--white);
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed var(--white);
+    padding: 1%;
+    position: relative;
+}
+
+article h2 {
+   font-size: 175%; 
+   color: var(--purple);
+   border: 1px solid var(--white);
+   border-radius: 5px;
+   padding: 2%;
+   margin-bottom: 2%;
+}
+
+article p {
+    color: var(--purple);
+    margin-bottom: 2%;
+}
+
+article card {
+    color: var(--white);
+    background-color: var(--purple);
+    border-radius: 5px;
+    padding: 2%;
 }
